@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<script src="Biología Molecular aplicada al Diagnóstico_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Biología Molecular aplicada al Diagnóstico_files/libs/quarto-html/tabby.min.js"></script>
+<script src="Biología Molecular aplicada al Diagnóstico_files/libs/quarto-html/popper.min.js"></script>
+<script src="Biología Molecular aplicada al Diagnóstico_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="Biología Molecular aplicada al Diagnóstico_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Biología Molecular aplicada al Diagnóstico_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="Biología Molecular aplicada al Diagnóstico_files/libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.6.42">
+
+  <meta name="author" content="Sergio Melgar">
+  <meta name="dcterms.date" content="2025-08-21">
+  <title>Biología Molecular Aplicada al Diagnóstico Clínico</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="Biología Molecular aplicada al Diagnóstico_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="Biología Molecular aplicada al Diagnóstico_files/libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="Biología Molecular aplicada al Diagnóstico_files/libs/revealjs/dist/theme/quarto-0c22b6e252e162282a19289aa8a4686d.css">
+  <link href="Biología Molecular aplicada al Diagnóstico_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="Biología Molecular aplicada al Diagnóstico_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="Biología Molecular aplicada al Diagnóstico_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="Biología Molecular aplicada al Diagnóstico_files/libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="Biología Molecular aplicada al Diagnóstico_files/libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="Biología Molecular aplicada al Diagnóstico_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Biología Molecular Aplicada al Diagnóstico Clínico</h1>
+  <p class="subtitle">De la molécula al resultado: herramientas para el laboratorio moderno</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Sergio Melgar 
+</div>
+</div>
+</div>
+
+  <p class="date">2025-08-21</p>
+</section>
+<section id="químico-biólogo" class="slide level2">
+<h2>Químico Biólogo</h2>
+<p>El Químico Biólogo será:</p>
+<p>Científica y tecnológicamente capacitado en las ciencias químicas y biológicas para desarrollar funciones en el orden técnico-profesional, en investigación y educación, en las áreas de su competencia, entre las que se incluyen:&nbsp; las ciencias bioquímicas, <strong>microbiológicas</strong>, inmunológicas y <strong>tecnológicas</strong>, además, servicios de <strong>diagnóstico en salud en laboratorios clínicos</strong> públicos y privados, <strong>control de calidad</strong> en laboratorios de la industria, con funciones administrativas y técnicas, asesoría y mercadeo en aspectos relacionados con las áreas de su competencia profesional.</p>
+</section>
+<section id="el-dogma-central-de-la-biología-molecular" class="slide level2">
+<h2>El Dogma Central de la Biología Molecular</h2>
+<blockquote>
+<p>El marco conceptual que conecta genotipo con fenotipo.</p>
+</blockquote>
+<div class="columns">
+<div class="column" style="width:65%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:Centraldogma_nodetails.svg"><img data-src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Centraldogma_nodetails.svg" alt="Dogma central" width="500"></a></p>
+<figcaption>El Dogma Central de la Biología Molecular ilustrando la replicación del ADN, la transcripción a ARN y la traducción a proteínas. Incluye la transcripción inversa en retrovirus.</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:35%;">
+<ul>
+<li><strong>Replicación</strong>: Duplicación del ADN</li>
+<li><strong>Transcripción</strong>: Síntesis de ARN a partir de ADN</li>
+<li><strong>Traducción</strong>: Síntesis de proteínas a partir de ARN</li>
+<li><strong>Transcripción inversa</strong>: Síntesis de ADN a partir de ARN (virus)</li>
+</ul>
+<p><strong>El diagnóstico molecular se basa en detectar cualquier punto de este flujo.</strong></p>
+</div></div>
+</section>
+<section id="diagnóstico" class="slide level2">
+<h2>Diagnóstico</h2>
+<ul>
+<li><p>Evolución del diagnóstico: de la sintomatología a la detección molecular.</p></li>
+<li><p>El concepto de <strong>Medicina de Precisión</strong>: Tratamientos y diagnósticos basados en el perfil molecular individual del paciente.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:Nurse_attending_to_a_patient.jpg"><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Nurse_attending_to_a_patient.jpg/960px-Nurse_attending_to_a_patient.jpg?20210406140346" width="300" alt="Diagnóstico"></a></p>
+<figcaption>Diagnóstico</figcaption>
+</figure>
+</div></li>
+</ul>
+</section>
+<section id="la-base-molecular-de-las-enfermedades" class="slide level2">
+<h2>La Base Molecular de las Enfermedades</h2>
+<ul>
+<li><p><strong>Alteraciones Estructurales:</strong></p>
+<ul>
+<li><p>Mutaciones puntuales (SNPs, sustituciones, inserciones, deleciones).</p></li>
+<li><p>Ejemplo de aplicación: Diagnóstico de Fibrosis Quística (mutación ΔF508 en el gen CFTR).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:Blausen_0286_CysticFibrosis_-_es.png"><img data-src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Blausen_0286_CysticFibrosis_-_es.png?20210226155434" width="500" alt="Fibrosis quística"></a></p>
+<figcaption>Fibrosis quística</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:Fibrosis_quistica.jpg"><img data-src="https://upload.wikimedia.org/wikipedia/commons/1/14/Fibrosis_quistica.jpg" alt="Efecto de fibrosis quística en pulmones"></a></p>
+<figcaption>Efecto de fibrosis quística en pulmones</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:Ubicaci%C3%B3n_de_la_Mutaci%C3%B3n_%CE%94F508..jpg"><img data-src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Ubicaci%C3%B3n_de_la_Mutaci%C3%B3n_%CE%94F508..jpg" width="500" alt="Mutación en ΔF508, la causa heredable más común de fibrosis quística."></a></p>
+<figcaption>Mutación en ΔF508, la causa heredable más común de fibrosis quística.</figcaption>
+</figure>
+</div></li>
+</ul></li>
+</ul>
+</section>
+<section id="anemia-falciforme" class="slide level2">
+<h2>Anemia Falciforme</h2>
+<ul>
+<li><p>glóbulos rojos se deformen hasta adquirir apariencia de hoz</p></li>
+<li><p>entorpece la circulación sanguínea y causa obstrucciones vasculares, microinfartos en múltiples órganos y hemólisis.</p></li>
+<li><p>sustitución de un aminoácido polar (el ácido glutámico) por otro no polar (la valina) en la sexta posición de la cadena de globina β</p></li>
+</ul>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:Sickle_Cell_Disease_(27249799083).jpg"><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Sickle_Cell_Disease_%2827249799083%29.jpg/1200px-Sickle_Cell_Disease_%2827249799083%29.jpg?20161018234246" width="300" alt="Anemia falciforme"></a></p>
+<figcaption>Anemia falciforme</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:Point-Mutation-Sickle-Cell-Normal_and_Mutated-Hemoglobin.png"><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Point-Mutation-Sickle-Cell-Normal_and_Mutated-Hemoglobin.png/1200px-Point-Mutation-Sickle-Cell-Normal_and_Mutated-Hemoglobin.png?20150722183522" width="500" alt="Mutación en Anemia Falciforme"></a></p>
+<figcaption>Mutación en Anemia Falciforme</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="reordenamientos-cromosómicos-translocaciones." class="slide level2">
+<h2>Reordenamientos cromosómicos: Translocaciones.</h2>
+<ul>
+<li><p>Ejemplo de aplicación: Diagnóstico de Leucemia Mieloide Crónica (Cromosoma Filadelfia, BCR-ABL).</p></li>
+<li><p>Leucemia mieloide crónica:</p>
+<ul>
+<li><p>proliferación excesiva de los glóbulos blancos de la serie granulocítica</p></li>
+<li><p>paciente presenta <a href="https://es.wikipedia.org/wiki/Esplenomegalia" title="Esplenomegalia">esplenomegalia</a>, o crecimiento del bazo; <a href="https://es.wikipedia.org/wiki/Trombocitosis" title="Trombocitosis">trombocitosis</a> y <a href="https://es.wikipedia.org/wiki/Anemia" title="Anemia">anemia</a>.</p></li>
+<li><p>Se origina por una <a href="https://es.wikipedia.org/wiki/Mutaci%C3%B3n_gen%C3%A9tica" title="Mutación genética">mutación genética</a>, que corresponde a una <a href="https://es.wikipedia.org/wiki/Translocaci%C3%B3n_cromos%C3%B3mica" title="Translocación cromosómica">traslocación</a> entre los <a href="https://es.wikipedia.org/wiki/Cromosoma_9_(humano)" title="Cromosoma 9 (humano)">cromosomas 9</a> y <a href="https://es.wikipedia.org/wiki/Cromosoma_22_(humano)" title="Cromosoma 22 (humano)">22</a></p></li>
+</ul></li>
+</ul>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:Bcrablmet.jpg"><img data-src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Bcrablmet.jpg" width="500" alt="Translocación en leucemia mieloide crónica."></a></p>
+<figcaption>Translocación en leucemia mieloide crónica.</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:LMC4.jpg"><img data-src="https://upload.wikimedia.org/wikipedia/commons/5/52/LMC4.jpg" width="500" alt="Aspecto al microscopio de una leucemia mieloide crónica. Paciente femenino de 4 años de edad, recuento de células nucleadas al ingreso 678 830 /mm3."></a></p>
+<figcaption>Aspecto al microscopio de una leucemia mieloide crónica. Paciente femenino de 4 años de edad, recuento de células nucleadas al ingreso 678 830 /mm3.</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="alteraciones-en-la-regulación" class="slide level2">
+<h2><strong>Alteraciones en la Regulación:</strong></h2>
+<ul>
+<li><p>Metilación de DNA y silenciamiento génico.</p></li>
+<li><p>Ejemplo de aplicación: Estudios epigenéticos en cáncer.</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:DNA_Methylation_-_How_Does_it_Cause_Cancer_(1).svg"><img data-src="https://upload.wikimedia.org/wikipedia/commons/2/26/DNA_Methylation_-_How_Does_it_Cause_Cancer_%281%29.svg" width="500" alt="Cambios epigenéticos y cáncer."></a></p>
+<figcaption>Cambios epigenéticos y cáncer.</figcaption>
+</figure>
+</div>
+</section>
+<section id="el-transcriptoma-rna" class="slide level2">
+<h2><strong>El Transcriptoma (RNA)</strong></h2>
+<ul>
+<li><p>Expresión génica diferencial como marcador de enfermedad.</p></li>
+<li><p>Ejemplo de aplicación: Perfiles de expresión para clasificar subtipos de cáncer de mama (Her2+, Luminal A/B, etc.).</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://en.wikipedia.org/wiki/File:Counting_HER2_versus_CEP17_probes_in_FISH_of_HER2_amplified_cell.png"><img data-src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Counting_HER2_versus_CEP17_probes_in_FISH_of_HER2_amplified_cell.png" alt="Conteo de HER2 vs CEP17 en células tumorales."></a></p>
+<figcaption>Conteo de HER2 vs CEP17 en células tumorales.</figcaption>
+</figure>
+</div>
+</section>
+<section class="slide level2">
+
+<p><strong>MicroRNA (miRNA):</strong> Pequeños RNA reguladores como biomarcadores en plasma.</p>
+<ul>
+<li>Ejemplo de aplicación: Paneles de miRNA para la detección temprana de cáncer.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:Examples_of_microRNA_stem-loops.jpg"><img data-src="https://upload.wikimedia.org/wikipedia/commons/6/69/Examples_of_microRNA_stem-loops.jpg" width="500" alt="Ejemplos de miRNAs"></a></p>
+<figcaption>Ejemplos de miRNAs</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:Workflow_and_elements_of_miRNA_biosensors.png"><img data-src="https://upload.wikimedia.org/wikipedia/commons/3/39/Workflow_and_elements_of_miRNA_biosensors.png" width="500" alt="Detección de miRNAs."></a></p>
+<figcaption>Detección de miRNAs.</figcaption>
+</figure>
+</div>
+</section>
+<section id="el-proteoma-proteínas" class="slide level2">
+<h2><strong>El Proteoma (Proteínas)</strong></h2>
+<ul>
+<li><p>Proteínas como efectoras finales de la información genética.</p></li>
+<li><p>Biomarcadores proteicos clásicos: PSA (cáncer de próstata), Troponina (infarto cardíaco).</p></li>
+<li><p>Modificaciones post-traduccionales (ej. fosforilación, glicosilación) como marcadores.</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:Diagnosis_of_Prostate_Cancer.webp"><img data-src="https://upload.wikimedia.org/wikipedia/commons/8/81/Diagnosis_of_Prostate_Cancer.webp" width="500" alt="Diagnóstico de cáncer de próstata."></a></p>
+<figcaption>Diagnóstico de cáncer de próstata.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:PSA_KLK3_PDB_2ZCK.png"><img data-src="https://upload.wikimedia.org/wikipedia/commons/b/b9/PSA_KLK3_PDB_2ZCK.png" width="500" alt="PSA (Antígeno específico prostático humano)."></a></p>
+<figcaption>PSA (Antígeno específico prostático humano).</figcaption>
+</figure>
+</div>
+</section>
+<section id="técnicas-centrales-en-el-diagnóstico" class="slide level2">
+<h2><strong>Técnicas Centrales en el Diagnóstico</strong></h2>
+<p><strong>Técnicas Basadas en Amplificación (DNA/RNA):</strong></p>
+<ul>
+<li><p><strong>PCR (Reacción en Cadena de la Polimerasa):</strong> El caballo de batalla.</p>
+<ul>
+<li><p>PCR convencional y en tiempo real (qPCR). Concepto de <strong><code>Cq</code></strong> (Ciclo cuantitativo).</p></li>
+<li><p>Aplicación: Detección cuantitativa de patógenos (ej. SARS-CoV-2, VIH).</p></li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:Polymerase_chain_reaction-en.svg"><img data-src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Polymerase_chain_reaction-en.svg" width="500" alt="Reacción en cadena de la polimerasa."></a></p>
+<figcaption>Reacción en cadena de la polimerasa.</figcaption>
+</figure>
+</div>
+</section>
+<section id="pcr-digital-dpcr" class="slide level2">
+<h2><strong>PCR Digital (dPCR):</strong></h2>
+<ul>
+<li><p>Detección absoluta de moléculas con ultra-sensibilidad.</p></li>
+<li><p>Permite cuantificar el ADN.</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:DdPCR_vs_Traditional_PCR.jpg"><img data-src="https://upload.wikimedia.org/wikipedia/commons/d/d1/DdPCR_vs_Traditional_PCR.jpg" alt="PCR digital."></a></p>
+<figcaption>PCR digital.</figcaption>
+</figure>
+</div>
+</section>
+<section id="técnicas-basadas-en-secuenciación" class="slide level2">
+<h2><strong>Técnicas Basadas en Secuenciación:</strong></h2>
+<ul>
+<li><strong>Sanger:</strong> El “gold standard” para confirmar mutaciones específicas.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:Skraban%E2%80%93Deardorff_syndrome_%E2%80%94_Sanger_sequencing_(cropped).png"><img data-src="https://upload.wikimedia.org/wikipedia/commons/8/88/Skraban%E2%80%93Deardorff_syndrome_%E2%80%94_Sanger_sequencing_%28cropped%29.png" width="500" alt="Detección del síndrome de Skraban–Deardorff por secuenciación"></a></p>
+<figcaption>Detección del síndrome de Skraban–Deardorff por secuenciación</figcaption>
+</figure>
+</div>
+</section>
+<section id="secuenciación-de-nueva-generación-ngs-la-revolución." class="slide level2">
+<h2><strong>Secuenciación de Nueva Generación (NGS):</strong> La revolución.</h2>
+<ul>
+<li><p>Concepto de secuenciación masiva en paralelo.</p></li>
+<li><p>Aplicaciones:</p>
+<ul>
+<li><p><strong>Paneles de Genes:</strong> Secuenciar un conjunto de genes asociados a una enfermedad (ej. cáncer hereditario).</p></li>
+<li><p><strong>Secuenciación del Exoma/Genoma completo:</strong> Para diagnósticos de enfermedades raras.</p></li>
+<li><p><strong>RNA-Seq:</strong> Para análisis de expresión y fusión de genes.</p></li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:Next_generation_sequencing_slide.jpg"><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Next_generation_sequencing_slide.jpg/330px-Next_generation_sequencing_slide.jpg" alt="Lámina de secuenciación de siguiente generación."></a></p>
+<figcaption>Lámina de secuenciación de siguiente generación.</figcaption>
+</figure>
+</div>
+</section>
+<section id="técnicas-basadas-en-hibridación" class="slide level2">
+<h2><strong>Técnicas Basadas en Hibridación:</strong></h2>
+<ul>
+<li><p><strong>Microarrays:</strong> De expresión génica y de genotipado (para SNPs).</p></li>
+<li><p><strong>FISH (Hibridación Fluorescente in situ):</strong> Para detectar reordenamientos cromosómicos en células.</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:Microarray_and_sequencing_flow_cell.svg"><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Microarray_and_sequencing_flow_cell.svg/640px-Microarray_and_sequencing_flow_cell.svg.png" alt="Microarreglos y secuenciación de nueva generación."></a></p>
+<figcaption>Microarreglos y secuenciación de nueva generación.</figcaption>
+</figure>
+</div>
+</section>
+<section id="técnicas-basadas-en-detección-de-proteínas-inmunoensayos" class="slide level2">
+<h2><strong>Técnicas Basadas en Detección de Proteínas (Inmunoensayos):</strong></h2>
+<ul>
+<li><strong>ELISA (Enzyme-Linked Immunosorbent Assay):</strong> Principio químico-enzimático.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:ELISA_Plate_image.jpg"><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/ELISA_Plate_image.jpg/960px-ELISA_Plate_image.jpg" width="500" alt="Prueba de ELISA para niveles de cortisol."></a></p>
+<figcaption>Prueba de ELISA para niveles de cortisol.</figcaption>
+</figure>
+</div>
+</section>
+<section id="western-blot" class="slide level2">
+<h2><strong>Western Blot:</strong></h2>
+<p>Para detección y confirmación específica de proteínas.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:Western_blot_(2).jpg"><img data-src="https://upload.wikimedia.org/wikipedia/commons/6/63/Western_blot_%282%29.jpg" alt="Wstern blot."></a></p>
+<figcaption>Wstern blot.</figcaption>
+</figure>
+</div>
+</section>
+<section id="citometría-de-flujo" class="slide level2">
+<h2><strong>Citometría de Flujo:</strong></h2>
+<ul>
+<li>Para analizar poblaciones celulares based en marcadores de superficie (ej. en leucemias).</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:Cytometer.svg"><img data-src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Cytometer.svg" alt="Citómetro de flujo."></a></p>
+<figcaption>Citómetro de flujo.</figcaption>
+</figure>
+</div>
+</section>
+<section id="aplicación-en-patógenos-y-vigilancia-epidemiológica" class="slide level2">
+<h2><strong>Aplicación en Patógenos y Vigilancia Epidemiológica</strong></h2>
+<p><strong>Diagnóstico de Enfermedades Infecciosas: Más Allá del “Sí/No”.</strong></p>
+<ul>
+<li><p><strong>Detección:</strong> Uso de qPCR para diagnóstico rápido (ej. Detección de SARS-CoV-2, VIH, HPV).</p></li>
+<li><p><strong>Cuantificación:</strong> Carga viral (ej. VIH, Hepatitis C) como marcador pronóstico y de eficacia terapéutica.</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:SARS-CoV-2_without_background.png"><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/SARS-CoV-2_without_background.png/1193px-SARS-CoV-2_without_background.png?20210922032455" width="500" alt="Virus SARS-CoV-2"></a></p>
+<figcaption>Virus SARS-CoV-2</figcaption>
+</figure>
+</div>
+</section>
+<section id="la-evolución-en-tiempo-real-genómica-de-patógenos." class="slide level2">
+<h2><strong>La Evolución en Tiempo Real: Genómica de Patógenos.</strong></h2>
+<ul>
+<li><p><strong>Concepto:</strong> Los patógenos (virus, bacterias) evolucionan. Mutaciones y selección natural generan variantes.</p></li>
+<li><p><strong>¿Por qué es crucial monitorearlas?</strong></p>
+<ul>
+<li><p><strong>Virulencia:</strong> Cambios en la capacidad de causar enfermedad grave.</p></li>
+<li><p><strong>Transmisibilidad:</strong> Aumento en la capacidad de contagio.</p></li>
+<li><p><strong>Escape Inmunológico:</strong> Capacidad de evadir la inmunidad previa (vacunas o infecciones pasadas).</p></li>
+<li><p><strong>Resistencia Antimicrobiana (RAM):</strong> Mutaciones que hacen a bacterias/hongos resistentes a antibióticos/antifúngicos.</p></li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:Gene_Transfer_(5080768325).gif"><img data-src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Gene_Transfer_%285080768325%29.gif" alt="Transferencia de genes de resistencia entre bacterias."></a></p>
+<figcaption>Transferencia de genes de resistencia entre bacterias.</figcaption>
+</figure>
+</div>
+</section>
+<section id="técnicas-para-el-rastreo-y-caracterización-de-patógenos" class="slide level2">
+<h2><strong>Técnicas para el Rastreo y Caracterización de Patógenos:</strong></h2>
+<ul>
+<li><p><strong>Secuenciación del Genoma Completo (NGS):</strong> La herramienta gold standard.</p>
+<ul>
+<li><p>Permite identificar mutaciones específicas y clasificar la variante o cepa.</p></li>
+<li><p><strong>Aplicación:</strong> Vigilancia de variantes de SARS-CoV-2 (Alpha, Delta, Ómicron), <em>Mycobacterium tuberculosis</em> resistente, brotes de <em>Salmonella</em>.</p></li>
+</ul></li>
+<li><p><strong>qPCR con sondas específicas para variantes:</strong> Detección rápida de mutaciones clave (ej. Detección de la mutación para identificar la variante Delta).</p></li>
+<li><p><strong>MLST (Multi-Locus Sequence Typing) y cgMLST (core genome MLST):</strong> Para caracterizar y rastrear brotes bacterianos.</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:SARS-CoV-2_Delta_variant.svg"><img data-src="https://upload.wikimedia.org/wikipedia/commons/4/4f/SARS-CoV-2_Delta_variant.svg" width="1000" alt="Variante delta de SARS-CoV-2"></a></p>
+<figcaption>Variante delta de SARS-CoV-2</figcaption>
+</figure>
+</div>
+</section>
+<section id="bioinformática-el-componente-indispensable." class="slide level2">
+<h2><strong>Bioinformática: El Componente Indispensable.</strong></h2>
+<ul>
+<li><p>Alineamiento de secuencias.</p></li>
+<li><p>Construcción de árboles filogenéticos para visualizar la relación entre cepas y entender la dinámica de un brote.</p></li>
+<li><p>Plataformas globales de intercambio de datos (ej. GISAID para influenza y coronavirus).</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:Phylogenetic_distribution_of_zoonosis,_genome_size_and_secretome_size_for_191_pathogenic_bacteria.jpg"><img data-src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Phylogenetic_distribution_of_zoonosis%2C_genome_size_and_secretome_size_for_191_pathogenic_bacteria.jpg" alt="Distribución filogenética de bacterias patogénicas"></a></p>
+<figcaption>Distribución filogenética de bacterias patogénicas</figcaption>
+</figure>
+</div>
+</section>
+<section id="vigilancia-de-un-brote-epidémico." class="slide level2">
+<h2><strong>Vigilancia de un Brote Epidémico.</strong></h2>
+<p><br>
+- <em>Muestra:</em> Hisopados de pacientes con misma sintomatología.</p>
+<ul>
+<li><p><em>Técnicas:</em> qPCR para confirmar patógeno + Secuenciación de Nueva Generación (NGS) de muestras positivas.</p></li>
+<li><p><em>Análisis Bioinformático:</em> Alineamiento, identificación de mutaciones comunes, construcción de árbol filogenético.</p></li>
+<li><p><em>Resultado:</em> Confirmación de un cluster de transmisión y identificación de la cepa responsable, permitiendo medidas de contención específicas.</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:Fimmu-10-00372-g001.jpg"><img data-src="https://upload.wikimedia.org/wikipedia/commons/3/36/Fimmu-10-00372-g001.jpg" alt="Taxonomía y localización de arenaviruses. Asteriscos indican cepas que infectan humanos."></a></p>
+<figcaption>Taxonomía y localización de arenaviruses. Asteriscos indican cepas que infectan humanos.</figcaption>
+</figure>
+</div>
+</section>
+<section id="qué-es-una-prueba-de-paternidad" class="slide level2">
+<h2>¿Qué es una Prueba de Paternidad?</h2>
+<p>Un test de paternidad es un análisis de laboratorio que busca determinar la compatibilidad entre el perfil genético de un individuo y el de sus presuntos progenitores.</p>
+<p>El objetivo es establecer si existe un vínculo biológico entre un presunto padre y un hijo/a.</p>
+<p>Estas pruebas se han vuelto fundamentales tanto en contextos personales y emocionales como en procedimientos legales, como disputas de custodia, herencias o casos de inmigración.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://en.wikipedia.org/wiki/File:DNA_paternity_testing_en.svg"><img data-src="https://upload.wikimedia.org/wikipedia/commons/5/55/DNA_paternity_testing_en.svg" alt="Prueba de paternidad, con perfil genético de la madre (M), hijo (Ch) y potenciales padres. El perfil genético del hijo debe ser una mezcla de los pefiles de la mamá y el papá. El individuo 1 es más probablemente el padre."></a></p>
+<figcaption>Prueba de paternidad, con perfil genético de la madre (M), hijo (Ch) y potenciales padres. El perfil genético del hijo debe ser una mezcla de los pefiles de la mamá y el papá. El individuo 1 es más probablemente el padre.</figcaption>
+</figure>
+</div>
+</section>
+<section id="el-fundamento-la-herencia-del-adn" class="slide level2">
+<h2>El Fundamento: La Herencia del ADN</h2>
+<p>Cada persona posee un perfil genético único que nos diferencia del resto. Este perfil se hereda de nuestros padres biológicos:</p>
+<ul>
+<li>Recibimos el <strong>50%</strong> de nuestro ADN de nuestra madre.</li>
+<li>El otro <strong>50%</strong> lo recibimos de nuestro padre.</li>
+</ul>
+<p>Al comparar secuencias específicas del ADN del hijo con las de los presuntos padres, se puede confirmar o descartar la relación de parentesco.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:Codominant.jpg"><img data-src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Codominant.jpg" alt="Ejemplo de herencia codominante."></a></p>
+<figcaption>Ejemplo de herencia codominante.</figcaption>
+</figure>
+</div>
+</section>
+<section id="marcadores-moleculares-los-strs" class="slide level2">
+<h2>Marcadores Moleculares: Los STRs</h2>
+<p>Para la identificación, los laboratorios no analizan el genoma completo, sino regiones específicas llamadas <strong>Marcadores Genéticos</strong>.</p>
+<h3 id="short-tandem-repeats-strs">Short Tandem Repeats (STRs)</h3>
+<ul>
+<li>Son secuencias cortas de ADN (de 3 a 7 pares de bases) que se repiten en tándem (una detrás de otra).</li>
+<li>El número de repeticiones en estas regiones varía enormemente entre individuos, lo que los convierte en marcadores ideales para la identificación.</li>
+<li>Para cada marcador STR (llamado <em>locus</em>), heredamos una versión (o <em>alelo</em>) de la madre y otra del padre.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:Short_Tandem_Repeat_(STR)_analysis.png"><img data-src="https://upload.wikimedia.org/wikipedia/commons/1/10/Short_Tandem_Repeat_%28STR%29_analysis.png" alt="Análisis de STRs."></a></p>
+<figcaption>Análisis de STRs.</figcaption>
+</figure>
+</div>
+</section>
+<section id="procedimiento-del-análisis-de-paternidad" class="slide level2">
+<h2>Procedimiento del Análisis de Paternidad</h2>
+<h3 id="toma-de-muestras">1. Toma de Muestras</h3>
+<ul>
+<li>El método más común y menos invasivo es el <strong>frotis bucal</strong>, utilizando un hisopo de algodón para recoger células del interior de la mejilla.</li>
+<li>Se requieren muestras del hijo/a y del presunto padre. La muestra de la madre no es indispensable, pero se recomienda para aumentar la precisión del resultado.</li>
+<li>En casos con validez judicial, la toma de muestras es un proceso estricto para garantizar su autenticidad e integridad.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:Extracting_total_DNA_from_environmental_DNA_water_filter_samples_collected_in_the_field._(48789082022).jpg"><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Extracting_total_DNA_from_environmental_DNA_water_filter_samples_collected_in_the_field._%2848789082022%29.jpg/960px-Extracting_total_DNA_from_environmental_DNA_water_filter_samples_collected_in_the_field._%2848789082022%29.jpg" alt="Extracción de ADN"></a></p>
+<figcaption>Extracción de ADN</figcaption>
+</figure>
+</div>
+</section>
+<section id="procedimiento-del-análisis-de-paternidad-1" class="slide level2">
+<h2>Procedimiento del Análisis de Paternidad</h2>
+<h3 id="extracción-y-amplificación-del-adn">2. Extracción y Amplificación del ADN</h3>
+<ul>
+<li><strong>Extracción:</strong> En el laboratorio, se aísla y purifica el ADN de las células obtenidas en las muestras.</li>
+<li><strong>Amplificación (PCR):</strong> Se utiliza la técnica de <strong>Reacción en Cadena de la Polimerasa (PCR)</strong> para generar millones de copias de los marcadores STR específicos que se van a analizar. Este paso es crucial para tener suficiente material genético para el análisis.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:Polymerase_chain_reaction-en.svg"><img data-src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Polymerase_chain_reaction-en.svg" width="500" alt="Reacción en cadena de la polimerasa."></a></p>
+<figcaption>Reacción en cadena de la polimerasa.</figcaption>
+</figure>
+</div>
+</section>
+<section id="procedimiento-del-análisis-de-paternidad-2" class="slide level2">
+<h2>Procedimiento del Análisis de Paternidad</h2>
+<h3 id="análisis-de-fragmentos-y-genotipado">3. Análisis de Fragmentos y Genotipado</h3>
+<ul>
+<li><strong>Electroforesis Capilar:</strong> Los fragmentos de STR amplificados se separan según su tamaño. Los fragmentos más pequeños se mueven más rápido que los grandes.</li>
+<li>Un detector láser registra los fragmentos, generando un perfil de ADN o “huella genética” para cada individuo. Este perfil muestra los dos alelos presentes para cada marcador STR analizado.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:Short_Tandem_Repeat_(STR)_analysis_in_two_cases.png"><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Short_Tandem_Repeat_%28STR%29_analysis_in_two_cases.png/960px-Short_Tandem_Repeat_%28STR%29_analysis_in_two_cases.png" alt="Análisis de STRs en dos casos."></a></p>
+<figcaption>Análisis de STRs en dos casos.</figcaption>
+</figure>
+</div>
+</section>
+<section id="interpretación-de-los-resultados" class="slide level2">
+<h2>Interpretación de los Resultados</h2>
+<p>La regla de la herencia es la clave:</p>
+<ul>
+<li>Para cada marcador STR, el hijo/a debe tener un alelo que coincida con uno de los alelos de su madre biológica.</li>
+<li>El otro alelo del hijo/a <strong>debe coincidir obligatoriamente</strong> con un alelo del padre biológico.</li>
+</ul>
+<p><strong>Exclusión:</strong> Si en dos o más marcadores genéticos los alelos del presunto padre no coinciden con los del hijo/a, se descarta la paternidad. <strong>Inclusión:</strong> Si en todos los marcadores analizados un alelo del hijo/a coincide con uno del presunto padre, se procede al análisis estadístico.</p>
+</section>
+<section id="análisis-estadístico-confirmando-la-paternidad" class="slide level2">
+<h2>Análisis Estadístico: Confirmando la Paternidad</h2>
+<h3 id="índice-de-paternidad-ip">Índice de Paternidad (IP)</h3>
+<ul>
+<li>Para cada marcador, se calcula el Índice de Paternidad (IP), que es una razón de verosimilitud.</li>
+<li>Compara la probabilidad de que el presunto padre haya transmitido el alelo paterno frente a la probabilidad de que un hombre al azar de la misma población lo haya hecho.</li>
+<li>Un valor de IP mayor a 1 apoya la hipótesis de paternidad.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://en.wikipedia.org/wiki/File:Trio_Paternity_Index_Calculations_Derivation-9-1.jpg"><img data-src="https://upload.wikimedia.org/wikipedia/commons/5/50/Trio_Paternity_Index_Calculations_Derivation-9-1.jpg" alt="Cálculo del índice de paternidad"></a></p>
+<figcaption>Cálculo del índice de paternidad</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://commons.wikimedia.org/wiki/File:Trio_Paternity_Index_Calculations_Derivation-5-3.jpg"><img data-src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Trio_Paternity_Index_Calculations_Derivation-5-3.jpg" alt="Cálculo del índice de paternidad"></a></p>
+<figcaption>Cálculo del índice de paternidad</figcaption>
+</figure>
+</div>
+</section>
+<section id="índice-de-paternidad-combinado-ipc" class="slide level2">
+<h2>Índice de Paternidad Combinado (IPC)</h2>
+<ul>
+<li>Los IP de todos los marcadores se multiplican entre sí para obtener el Índice de Paternidad Combinado (IPC).</li>
+</ul>
+<p><span class="math inline">\(IPC =\prod_{1}^{n} PI_i\)</span></p>
+</section>
+<section id="el-resultado-final-probabilidad-de-paternidad" class="slide level2">
+<h2>El Resultado Final: Probabilidad de Paternidad</h2>
+<p>A partir del Índice de Paternidad Combinado (IPC), se calcula la <strong>Probabilidad de Paternidad</strong>.</p>
+<ul>
+<li>Una probabilidad de paternidad del <strong>99.9% o superior</strong> se considera una prueba concluyente de que el presunto padre es el padre biológico.</li>
+<li>Por el contrario, si los perfiles no coinciden, la probabilidad es del 0%, excluyendo categóricamente al presunto padre.</li>
+</ul>
+<p>La fiabilidad de la prueba es del 100% en caso de exclusión y superior al 99.9% en casos de inclusión.</p>
+</section>
+<section id="conclusión" class="slide level2">
+<h2>Conclusión</h2>
+<p>Las pruebas de paternidad basadas en el análisis de ADN son una de las aplicaciones más poderosas y fiables de la biología molecular.</p>
+<p>Mediante el análisis de marcadores STR y un riguroso tratamiento estadístico, es posible determinar con una certeza prácticamente absoluta los vínculos biológicos familiares, proporcionando respuestas cruciales tanto a nivel personal como legal.</p>
+</section>
+<section id="gracias" class="title-slide slide level1 center">
+<h1>Gracias</h1>
+
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="logo_university.png" class="slide-logo"></p>
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="Biología Molecular aplicada al Diagnóstico_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="Biología Molecular aplicada al Diagnóstico_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="Biología Molecular aplicada al Diagnóstico_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="Biología Molecular aplicada al Diagnóstico_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="Biología Molecular aplicada al Diagnóstico_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="Biología Molecular aplicada al Diagnóstico_files/libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="Biología Molecular aplicada al Diagnóstico_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="Biología Molecular aplicada al Diagnóstico_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="Biología Molecular aplicada al Diagnóstico_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="Biología Molecular aplicada al Diagnóstico_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="Biología Molecular aplicada al Diagnóstico_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': true,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
+      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+      tabsets.forEach(function(tabset) {
+        const tabby = new Tabby('#' + tabset.id);
+      });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
+      const onCopySuccess = function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copiado");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copiado");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
+      });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+        const config = {
+          allowHTML: true,
+          maxWidth: 500,
+          delay: 100,
+          arrow: false,
+          appendTo: function(el) {
+              return el.closest('section.slide') || el.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start',
+        };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
+          config['offset'] = [0,0];
+          config['maxWidth'] = 700;
+        window.tippy(el, config); 
+      }
+      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+      for (var i=0; i<noterefs.length; i++) {
+        const ref = noterefs[i];
+        tippyHover(ref, function() {
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+          try { href = new URL(href).hash; } catch {}
+          const id = href.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
+        });
+      }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
+      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+      for (var i=0; i<bibliorefs.length; i++) {
+        const ref = bibliorefs[i];
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
+          });
+        }
+      }
+    });
+    </script>
+    <div class="logo-container">
+      <img src="Logotipo_USAC_tricentenaria.png" class="logo">
+    </div>
+    <style>
+      .logo-container {
+        position: fixed;
+        top: 10px;
+        right: 70px;
+        z-index: 100;
+        pointer-events: none;
+      }
+      .logo {
+        width: 200px;
+        opacity: 0.8;
+      }
+    </style>
+    
+
+</body></html>
